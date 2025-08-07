@@ -1,0 +1,8 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    @apply scroll-smooth font-outfit leading-7 md:leading-8;
+}
