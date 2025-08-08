@@ -4,6 +4,7 @@ import About from "./Components/About"
 import TechnologyStack from "./Components/TechnologyStack"
 import MyWork from "./Components/MyWork"
 import Contact from "./Components/Contact"
+import Experience from "./Components/Experience"
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <Navbar />
       <Header />
       <About />
+      <Experience />
       <TechnologyStack />
       <MyWork />
       <Contact />

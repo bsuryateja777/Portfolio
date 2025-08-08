@@ -10,13 +10,13 @@ export default function MyWork() {
 
     return (
 
-        <div id="work" className='w-full px-12% py-10 scroll-mt-8 md:scroll-mt-12'>
-            <h4 className='text-center mb-2 text-lg font-ovo'>My Portfolio</h4>
-            <h2 className='text-center text-5xl font-ovo'>Technical Projects</h2>
+        <div id="work" className='w-full px-[5%] 2xl:px-[9%] pt-10 scroll-mt-6 lg:scroll-mt-8 2xl:scroll-mt-12'>
+            <h4 className='text-center mb-2 text-md 2xl:text-lg font-ovo'>My Portfolio</h4>
+            <h2 className='text-center text-4xl 2xl:text-5xl font-ovo overflow-hidden'>Technical Projects</h2>
 
             <p className='text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo'>Welcome to my development portfolio! Explore a collection of projects showcasing my expertise in development</p>
 
-            <div className="grid grid-cols-auto sm:grid-cols-2 md:grid-cols-3 gap-6 px-10 md:px-32 place-items-center mt-10">
+            <div className="grid grid-cols-auto sm:grid-cols-2 md:grid-cols-3 gap-6 place-items-center mt-10">
                 {projects.map((project, index) => {
                     // mobile scroll 
                     const [ref, inView] = UseInView();
@@ -37,10 +37,10 @@ export default function MyWork() {
                                 <div className="bg-gray-400 min-h-[1.5px] min-w-full    " />
                                 <div className="flex flex-row ml-2 mt-2 self-start gap-3">
                                     <a href={project.source} target="_blank" rel="noopener noreferrer">
-                                        <Source />
+                                        <Source className="size-7 2xl:size-8" />
                                     </a>
                                     <a href={project.deployed} target="_blank" rel="noopener noreferrer">
-                                        <Deployed />
+                                        <Deployed className="size-7 2xl:size-8" />
                                     </a>
                                 </div>
                             </div>
