@@ -7,7 +7,7 @@ export default function
     () {
     return (
 
-        <div id="tech" className='w-full px-[12%] pt-10 scroll-mt-6 lg:scroll-mt-8 2xl:scroll-mt-12'>
+        <div id="tech" className='w-full px-[12%] pt-10 scroll-mt-8 lg:scroll-mt-10 2xl:scroll-mt-14'>
             <h4 className='text-center mb-2 text-md 2xl:text-lg font-ovo'>Tech I Know</h4>
             <h2 className='text-center text-4xl 2xl:text-5xl font-ovo overflow-hidden'>Technology Stack</h2>
 

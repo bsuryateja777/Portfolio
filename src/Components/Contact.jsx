@@ -41,7 +41,7 @@ export default function Contact() {
     };
 
     return (
-        <div id="contact" className='w-full px-[6%] lg:px-[12%] py-10 pb-40 md:pb-2 2xl:pb-2.5 scroll-mt-6 lg:scroll-mt-8 2xl:scroll-mt-12 bg-header-bg bg-no-repeat  bg-cover bg-center'>
+        <div id="contact" className='w-full px-[6%] lg:px-[12%] mt-20 py-10 pb-34 md:pb-2 2xl:pb-2.5 scroll-mt-8 lg:scroll-mt-10 2xl:scroll-mt-14 bg-header-bg bg-no-repeat  bg-cover bg-center'>
             <h4 className='text-center mb-2 text-md 2xl:text-lg font-ovo'>Connect With Me</h4>
             <h2 className='text-center text-4xl 2xl:text-5xl font-ovo overflow-hidden'>Get in Touch</h2>
 

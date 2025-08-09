@@ -5,6 +5,7 @@ import TechnologyStack from "./Components/TechnologyStack"
 import MyWork from "./Components/MyWork"
 import Contact from "./Components/Contact"
 import Experience from "./Components/Experience"
+import Footer from "./Components/Footer"
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <TechnologyStack />
       <MyWork />
       <Contact />
+      <Footer />
     </div>
   )
 }

@@ -10,7 +10,7 @@ export default function MyWork() {
 
     return (
 
-        <div id="work" className='w-full px-[5%] 2xl:px-[9%] pt-10 scroll-mt-6 lg:scroll-mt-8 2xl:scroll-mt-12'>
+        <div id="work" className='w-full px-[5%] 2xl:px-[9%] mt-10 pt-10 scroll-mt-8 lg:scroll-mt-10 2xl:scroll-mt-14'>
             <h4 className='text-center mb-2 text-md 2xl:text-lg font-ovo'>My Portfolio</h4>
             <h2 className='text-center text-4xl 2xl:text-5xl font-ovo overflow-hidden'>Technical Projects</h2>
 

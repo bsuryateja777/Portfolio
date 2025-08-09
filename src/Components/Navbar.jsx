@@ -39,7 +39,7 @@ export default function Navbar() {
             <nav className={`${isScroll ? ' backdrop-blur-lg shadow-lg scale-100  md:scale-110 ' : 'opacity-90 scale-105'} w-full top-0 fixed px-5 pb-1 pt-4 lg:px-8  xl:px-[6%] flex items-center justify-between z-50 transition-all duration-500 transform origin-center `}>
 
                 <a href="#head">
-                    <h1 className='text-2xl lg:text-3xl 2xl:text-4xl font-ovo font-bold -z-20'>Surya Teja Reddy<span className='text-4xl text-red-500'>.</span></h1>
+                    <h1 className='text-2xl lg:text-3xl 2xl:text-4xl font-ovo font-bold -z-20'>Surya Teja Reddy<span className='lg:text-3xl text-4xl text-red-500'>.</span></h1>
                 </a>
 
                 <ul className={`hidden md:flex items-center gap-6 2xl:gap-8 rounded-full lg:px-6 2xl:px-10 lg:py-2.5  2xl:py-3 ${isScroll ? '' : 'shadow-lg'}`}>
@@ -54,7 +54,7 @@ export default function Navbar() {
 
                 <div className='flex gap-2 2xl:gap-4 items-center'>
 
-                    <button>
+                    <button className='hidden'>
                         <MoonIcon />
                     </button>
 
