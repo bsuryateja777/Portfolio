@@ -10,7 +10,7 @@ export default function About() {
 
             <div className='flex w-full flex-col lg:flex-row items-center gap-7  lg:gap-8 2xl:gap-10  my-7 2xl:my-16'>
 
-                <div className='w-64 sm:w-80 h-[390px] lg:w-[240px] lg:h-[360px] 2xl:w-[275px] 2xl:h-[450px] rounded-3xl'>
+                <div className='w-64 sm:w-80 h-[390px] lg:w-[240px] lg:h-[360px] 2xl:w-[295px] 2xl:h-[450px] rounded-3xl'>
                     <img src={profileImage} alt='' className='w-full h-full rounded-2xl 2xl:rounded-3xl  ' />
                 </div>
 
