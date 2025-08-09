@@ -33,35 +33,35 @@ export default function Footer() {
 
                 <div className="flex items-center gap-2">
                     <img src={LinkedIn} alt="" className='w-4' />
-                    <a href="#" className="hover:underline font-ovo">
+                    <a href="https://www.linkedin.com/in/barla-surya-teja-reddy-05b6741a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" className="hover:underline font-ovo">
                         LinkedIn
                     </a>
                 </div>
 
                 <div className="flex items-center gap-2">
                     <img src={GitHub} alt="" className='w-5 relative bottom-0.5' />
-                    <a href="#" className="hover:underline font-ovo">
+                    <a href="https://github.com/bsuryateja777/" className="hover:underline font-ovo">
                         GitHub
                     </a>
                 </div>
 
                 <div className="flex items-center gap-2">
                     <img src={Instagram} alt="" className='w-5' />
-                    <a href="#" className="hover:underline font-ovo">
+                    <a href="https://www.instagram.com/___suryaaateja_?igsh=OWJkaXF5djNleHQ4&utm_source=qr" className="hover:underline font-ovo">
                         Instagram
                     </a>
                 </div>
 
                 <div className="flex items-center gap-2">
                     <img src={Twitter} alt="" className='w-5 relative' />
-                    <a href="#" className="hover:underline font-ovo">
+                    <a href="https://x.com/_suryateja_777?s=21" className="hover:underline font-ovo">
                         Twitter
                     </a>
                 </div>
 
                 <div className="flex items-center gap-2">
                     <img src={LeetCode} alt="" className='w-5 relative bottom-0.5' />
-                    <a href="#" className="hover:underline font-ovo">
+                    <a href="https://leetcode.com/u/surya_teja_reddy_777/" className="hover:underline font-ovo">
                         LeetCode
                     </a>
                 </div>
