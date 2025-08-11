@@ -19,10 +19,10 @@ export default function TechnologyStack () {
 
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-20 lg:gap-10 2xl:gap-24 px-12 lg:px-42 2xl:px-46 place-items-center mt-12">
                 {techStack.map((tech, index) => (
-                    <motion.div key={index} className="flex flex-col items-center justify-between p-4 hover:scale-110 transition-all duration-300 w-full max-w-[200px] h-32 gap-2 lg:gap-3 2xl:gap-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: index * 0.3 }}>
-                        <div className="flex items-center justify-center h-16 2xl:h-20" >
+                    <motion.div key={index} className="flex flex-col items-center justify-between p-4 transition-all duration-300 w-full max-w-[200px] h-32 gap-2 lg:gap-3 2xl:gap-6" initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1, delay: index * 0.3 }}>
+                        <motion.div className="flex items-center justify-center h-16 2xl:h-20" whileHover={{scale:1.15}} >
                             <tech.icon className="h-20 w-20 lg:h-26 lg:w-24 2xl:h-32 2xl:w-26" />
-                        </div>
+                        </motion.div>
                         <p className="text-sm text-center text-gray-700 font-semibold mt-2" >
                             {tech.title}
                         </p>
@@ -30,11 +30,12 @@ export default function TechnologyStack () {
                 ))}
 
                 {/* Snowflake item with same animation pattern */}
-                <motion.div className='flex flex-col items-center justify-between p-4 hover:scale-110 transition-all duration-300 w-full max-w-[200px] h-32 gap-2 lg:gap-3 2xl:gap-6 hover:-translate-y-10' initial={{ opacity: 0}} whileInView={{ opacity: 1}} transition={{ duration: 0.5, delay: snowflakeIndex * 0.3}}>
+                <motion.div className='flex flex-col items-center justify-between p-4x transition-all duration-300 w-full max-w-[200px]  h-32 gap-2 lg:gap-3 2xl:gap-6' 
+                initial={{ opacity: 0}} whileInView={{ opacity: 1}} transition={{ duration: 0.5, delay: snowflakeIndex * 0.3}} >
                     <div className="flex items-center justify-center h-16 w-20 lg:h-26 lg:w-24 2xl:h-[80px]" >
-                        <img src={Snowflake} alt="Snowflake" className='h-full w-full object-contain' />
+                        <motion.img src={Snowflake} alt="Snowflake" className='h-full w-full relative top-3 object-contain group transition:all duration-300 hover:scale-125' transition={{duration:0.1}} whileHover={{scale:1.25}} />
                     </div>
-                    <p className='text-sm text-center text-gray-700 font-semibold mt-2' >
+                    <p className='text-sm text-center text-gray-700 font-semibold group-hover:scale-125 relative -top-2 mt-2' >
                         Snowflake
                     </p>
                 </motion.div>
