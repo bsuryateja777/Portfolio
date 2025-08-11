@@ -72,7 +72,7 @@ export default function Navbar() {
 
                 {/* -----------  mobile menu ----------- */}
                 <ul ref={sideMenuRef} className="flex md:hidden flex-col pt-[60px] pl-10 pr-20 fixed -right-64 top-0 w-55 z-50 h-screen bg-lightHover transition duration-500 ease-in-out space-y-5" >
-                    <div className="absolute right-10 top-8" onClick={closeMenu}>
+                    <div className="absolute right-8 top-7" onClick={closeMenu}>
                         <img src={closeBlack} alt="" className="w-5" />
                     </div>
 
