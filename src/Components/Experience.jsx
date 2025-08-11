@@ -26,7 +26,7 @@ export default function Experience() {
           return (
             <div key={index} className="flex items-start mb-10 relative">
               {/* Dot container */}
-              <motion.div className="relative flex-shrink-0 w-8 flex justify-center top-6 lg:top-12" initial={{ opacity: 0, x: -5 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }}>
+              <motion.div className="relative flex-shrink-0 w-8 flex justify-center top-6 lg:top-12" initial={{ opacity: 0, x: -10 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }}>
                 {/* Current job — animated ping */}
                 {isCurrent ? (
                   <span className="absolute w-4 h-4 rounded-full border-2 border-red-500 animate-ping"></span>
