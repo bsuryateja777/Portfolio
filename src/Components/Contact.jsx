@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import headerBg from '../Assets/header_bg.png'
 import { RightArrow } from '../Assets/Icons'
-import { motion } from 'motion/react'
+import { motion } from "framer-motion";
+
 
 
 export default function Contact() {

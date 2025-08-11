@@ -3,7 +3,8 @@ import headerBg from "../Assets/header_bg.png"
 import closeBlack from "../Assets/close_black.png"
 import menuBlack from "../Assets/menu_black.png"
 import { MoonIcon, RightCrossArrow } from "../Assets/Icons";
-import {motion } from 'motion/react'
+import { motion } from "framer-motion";
+
  
 
 

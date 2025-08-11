@@ -3,7 +3,8 @@ import { projects } from '../Assets/PersonalInfo.js'
 import ImageSlider from './ImageSlider'
 import { Deployed, Source } from '../Assets/Icons';
 import UseInView from '../Assets/UseInView.js';
-import { motion } from 'motion/react'
+import { motion } from "framer-motion";
+
 
 export default function MyWork() {
 

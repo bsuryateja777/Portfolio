@@ -1,7 +1,7 @@
 import React from 'react'
 import profileImage from "../Assets/profile_img.jpg"
 import handIcon from "../Assets/hand_icon.png"
-import { motion } from 'motion/react'
+import { motion } from "framer-motion";
 import { RightArrow, DownloadIcon } from '../Assets/Icons'
 
 export default function Header() {

@@ -5,7 +5,8 @@ import GitHub from '../Assets/github.svg'
 import LeetCode from '../Assets/leetcode.svg'
 import Twitter from '../Assets/twitter.svg'
 import Instagram from '../Assets/instagram.svg'
-import {motion} from 'motion/react'
+import { motion } from "framer-motion";
+
 
 export default function Footer() {
     

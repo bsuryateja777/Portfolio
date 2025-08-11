@@ -1,7 +1,8 @@
 import React from 'react'
 import profileImage from "../Assets/profile_img.jpg"
 import { infoList } from "../Assets/PersonalInfo.js"
-import { motion } from 'motion/react'
+import { motion } from "framer-motion";
+
 
 export default function About() {
 

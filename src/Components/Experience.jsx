@@ -1,6 +1,7 @@
 import React from "react";
 import { experience } from "../Assets/PersonalInfo"; // adjust path
-import {motion} from 'motion/react'
+import { motion } from "framer-motion";
+
 
 export default function Experience() {
   // Oldest → newest

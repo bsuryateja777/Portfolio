@@ -1,7 +1,8 @@
 import React from 'react'
 import { techStack } from '../Assets/PersonalInfo.js'
 import Snowflake from '../Assets/snowflake-color.svg'
-import { motion } from 'motion/react'
+import { motion } from "framer-motion";
+
 
 export default function TechnologyStack () {
     const snowflakeIndex = techStack.length; // delay after last mapped icon
