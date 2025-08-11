@@ -12,9 +12,9 @@ import RentEase7 from "../Assets/RentEase/RentEase7.png"
 
 
 export const infoList = [
-    { icon: CodeIcon, iconDark: CodeIcon, title: 'Languages', description: 'Java, HTML, CSS, JavaScript React Js, Mongo DB, My SQL' },
     { icon: EduIcon, iconDark: EduIconDark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: ProjectIcon, iconDark: ProjectIconDark, title: 'Projects', description: 'In Progress...' },
+    { icon: CodeIcon, iconDark: CodeIcon, title: 'Languages', description: 'Java, HTML, CSS, JavaScript React Js, Mongo DB, My SQL' },
+    { icon: ProjectIcon, iconDark: ProjectIconDark, title: 'Projects', description: 'RentEase - FullStack' },
 
 ]
 

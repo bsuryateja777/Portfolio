@@ -3,7 +3,8 @@ import headerBg from "../Assets/header_bg.png"
 import closeBlack from "../Assets/close_black.png"
 import menuBlack from "../Assets/menu_black.png"
 import { MoonIcon, RightCrossArrow } from "../Assets/Icons";
-
+import {motion } from 'motion/react'
+ 
 
 
 export default function Navbar() {
@@ -58,7 +59,9 @@ export default function Navbar() {
                         <MoonIcon />
                     </button>
 
-                    <a href="#contact" className='font-Ovo hidden lg:flex items-center lg:gap-2 2xl:gap-3 lg:px-5 2xl:px-10 lg:py-2 2xl:py-2.5 border border-gray-500 rounded-full ml-4'>Contact <RightCrossArrow /> </a>
+                    <motion.a href="#contact" className='font-Ovo hidden lg:flex items-center lg:gap-2 2xl:gap-3 lg:px-5 2xl:px-10 lg:py-2 2xl:py-2.5 border border-gray-500 rounded-full ml-4' whileTap={{scale:0.95}}>
+                        Contact <RightCrossArrow />
+                    </motion.a>
 
                     <button className='block md:hidden ml-2' onClick={openMenu}>
                         <img src={menuBlack} alt="" className='w-6' />
