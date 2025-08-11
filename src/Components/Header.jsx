@@ -15,9 +15,9 @@ export default function Header() {
 
             </motion.div>
 
-            <motion.h3 className='flex items-end gap-2 text-lg lg:text-xl  2xl:text-2xl font-ovo relative top-3' initial={{ y: -10, opcaity: 0 }} whileInView={{ y: 0, opcaity: 1 }} transition={{ duration: 0.8, delay: 0.4 }}>
+            <h3 className='flex items-end gap-2 text-lg lg:text-xl  2xl:text-2xl font-ovo relative top-1.5'>
                 Hi! I'm Surya Teja Reddy<img src={handIcon} alt="" className='w-8 ' />
-            </motion.h3>
+            </h3>
             <motion.h1 className='text-4xl sm:text-6xl lg:text-[50px] 2xl:text-[66px] font-ovo overflow-hidden' initial={{ y: -15, opcaity: 0 }} whileInView={{ y: 0, opcaity: 1 }} transition={{ duration: 0.8 }}>
                 A Full Stack Developer based in India.
             </motion.h1>
