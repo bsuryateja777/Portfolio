@@ -27,12 +27,12 @@ export default function MyWork() {
                     // mobile scroll 
                     const [ref, inView] = UseInView();
                     return (
-                        <motion.div key={index} ref={ref} className="relative flex flex-col items-center rounded-2xl justify-center rounded-xl bg-gray-100 px-1.5 py-2 hover:-translate-y-1 hover:shadow-xl hover:shadow-gray-800 transition-all duration-500 w-full pb-3 group"
+                        <motion.div key={index} ref={ref} className="relative flex flex-col items-center rounded-2xl justify-center rounded-xl bg-gray-100 px-1.5 py-2 hover:shadow-xl hover:shadow-gray-800 transition-all duration-500 w-full pb-3 group"
                             onMouseEnter={() => setHoveredIndex(index)}
-                            onMouseLeave={() => setHoveredIndex(null)} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0, scale:0.95 }} whileHover={{scale:1}} whileTap={{scale:0.50}} transition={{ duration: 0.5 }}  >
+                            onMouseLeave={() => setHoveredIndex(null)} initial={{ opacity: 0, y: 10 }} whileInView={{ opacity: 1, y: 0, scale:0.95 }} whileHover={{scale:1}} whileTap={{scale:0.50}} transition={{ duration: 0.1 }}  >
 
                             <div className="absolute inset-0 bg-cover bg-center transition-opacity rounded-2xl duration-500 opacity-25 group-hover:opacity-50 bg-project-bg" />
-                            <div className="relative z-10 w-full rounded-2xl hover:-translate-y-1" >
+                            <div className="relative z-10 w-full rounded-2xl" >
                                 <ImageSlider photos={project.photos} cardHovered={hoveredIndex === index} cardInView={inView} />
                                 <h3 className="mt-2 text-2xl text-begin text-gray-900 font-ovo capitalize line-clamp-1" title={`${project.title}`} >
                                     {project.title}
