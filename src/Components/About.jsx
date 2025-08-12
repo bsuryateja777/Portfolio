@@ -55,7 +55,7 @@ export default function About() {
                                 whileInView={{ opacity: 1, x: 0 }}
                                 transition={{ duration: 0.6, delay: index * 0.7 }}
                             >
-                                <li className='min-h-[220px] 2xl:min-h-[260px] p-3 border-[0.5px] border-border-gray-400 rounded-xl cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 ease-in-out hover:shadow-black'>
+                                <li className='min-h-[220px] 2xl:min-h-[260px] p-3 border-[0.5px] border-border-gray-400 rounded-xl cursor-pointer card hover:bg-lightHover hover:-translate-y-1 duration-500 ease-in-out hover:shadow-black'>
                                     <info.icon />
                                     <h3 className='my-4 text-2xl font-semibold text-gray-700'>{info.title}</h3>
                                     <p className='text-gray-600 text-lg line-clamp-3'>{info.description}</p>

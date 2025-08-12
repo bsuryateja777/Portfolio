@@ -7,11 +7,10 @@ export default {
     "./public/index.html"
   ],
   theme: {
-    colors:{
-      lightHover: '#FCF4FF',
-
-    },
     extend: {
+      colors : {
+        lightHover: '#ebd9efff',
+      },
       fontFamily: {
         outfit: ['Outfit', 'sans-serif'],
         ovo: ['Ovo', 'serif'],

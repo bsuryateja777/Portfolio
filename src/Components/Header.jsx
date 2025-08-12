@@ -28,7 +28,7 @@ export default function Header() {
             </motion.p>
 
             <div className='flex flex-col sm:flex-row gap-2 md:gap-4 2xl:mt-4'>
-                <motion.a href="#contact" className=' px-10 lg:px-8 2xl:px-10 py-3 lg:py-2 2xl:py-3 border rounded-full border-white bg-black/85 hover:bg-black text-white flex items-center justify-center gap-2' initial={{ y: -15, opcaity: 0 }} whileInView={{ y: 0, opcaity: 1 }} transition={{ duration: 0.8}} whileTap={{scale:0.70}} >
+                <motion.a href="#contact" className=' px-10 lg:px-8 2xl:px-10 py-3 lg:py-2 2xl:py-3 border rounded-full border-white contact-me bg-black/90 hover:bg-black text-white flex items-center justify-center gap-2' initial={{ y: -15, opcaity: 0 }} whileInView={{ y: 0, opacity: 1 }} transition={{ duration: 0.8}} whileTap={{scale:0.70}} >
                     Contact Me <RightArrow />
                 </motion.a>
                 <motion.a href="/Resume.pdf" download className='px-10 lg:px-8 2xl:px-10 py-3 lg:py-2 2xl:py-3 border rounded-full border-gray-500 flex items-center gap-2 hover:bg-gray-200' initial={{ y: -15, opcaity: 0 }} whileInView={{ y: 0, opcaity: 1 }} transition={{ duration: 0.8}} whileTap={{scale:0.70}}>
