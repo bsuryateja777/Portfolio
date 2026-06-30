@@ -3,6 +3,16 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    scroll-behavior: smooth;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #111827;
+    }
+}
+
 *{
-    @apply scroll-smooth font-outfit leading-6  md:leading-7  2xl:leading-8;
+    @apply font-outfit leading-6 md:leading-7 2xl:leading-8;
 }

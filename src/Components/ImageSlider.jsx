@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import PropTypes from 'prop-types';
 
 export default function ImageSlider({ photos, cardHovered, cardInView }) {
     const [current, setCurrent] = useState(0);
@@ -23,19 +24,25 @@ export default function ImageSlider({ photos, cardHovered, cardInView }) {
 
     return (
         <div className="relative w-full h-48 overflow-hidden rounded-xl">
-            <div className="flex w-full h-full transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${current * 100}%)` }} >
+            <div className="flex w-full h-full transition-transform duration-700 ease-in-out" style={{ transform: `translateX(-${current * 100}%)` }}>
                 {photos.map((photo, i) => (
-                    <img key={i} src={photo} alt={`slide-${i}`} className="w-full flex-shrink-0 object-cover h-48 rounded-xl px-1 py-0.5" />
+                    <img key={photo} src={photo} alt={`slide-${i}`} className="w-full flex-shrink-0 object-cover h-48 rounded-xl px-1 py-0.5" />
                 ))}
             </div>
 
             {(shouldSlide || cardHovered) && (
                 <div className="absolute bottom-2 left-1/2 -translate-x-1/2 flex gap-1 z-20">
-                    {photos.map((_, i) => (
-                        <div key={i} className={`w-2 h-2 rounded-full transition-all duration-300 ${current === i ? 'bg-white/90' : 'bg-white/40'}`} />
+                    {photos.map((photo, i) => (
+                        <div key={photo} className={`w-2 h-2 rounded-full transition-all duration-300 ${current === i ? 'bg-white/90' : 'bg-white/40'}`} />
                     ))}
                 </div>
             )}
         </div>
     );
 }
+
+ImageSlider.propTypes = {
+    photos: PropTypes.arrayOf(PropTypes.string).isRequired,
+    cardHovered: PropTypes.bool.isRequired,
+    cardInView: PropTypes.bool.isRequired,
+};
