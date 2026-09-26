@@ -15,6 +15,8 @@ import MicroServices4 from "../Assets/projects/Micro-Services/Micro-Services4.pn
 import MicroServices5 from "../Assets/projects/Micro-Services/Micro-Services5.png"
 import MicroServices6 from "../Assets/projects/Micro-Services/Micro-Services6.png"
 import MicroServices7 from "../Assets/projects/Micro-Services/Micro-Services7.png"
+import CICD1 from "../Assets/projects/CI-CD-Learning/CI-CD-Learning1.png"
+import CICD2 from "../Assets/projects/CI-CD-Learning/CI-CD-Learning2.png"
 
 
 
@@ -59,6 +61,12 @@ export const projects = [
         title: "MicroServices - Containerized Microservices Architecture",
         description: "An e-commerce platform with 6 independent Node/Express microservices (Gateway, Auth, Product, Cart, Order, Wallet) using Apache Kafka for async payment event streaming between Order and Wallet services. Containerised with Docker Compose and structured for Kubernetes deployment across three branches: local, Docker, and independent containers.",
         source: "https://github.com/bsuryateja777/MicroServices",
+    },
+    {
+        photos: [CICD1, CICD2],
+        title: "CI/CD Learning - Production-Ready CI/CD Pipeline",
+        description: "A production-ready CI/CD pipeline project featuring automated testing, Docker containerization, and Azure deployment. Built with Express.js, Jest, ESLint, Prettier, Husky, and GitLab CI/CD. Includes quality gates, security scanning, multi-stage Docker builds, and deployment to Azure Container Apps with branch protection rules and approval workflows.",
+        source: "https://github.com/bsuryateja777/cicd-learning",
     },
 ]
 
